@@ -10,7 +10,7 @@ class destinations extends Model
     use HasFactory;
 
     public $timestamps = false;
-    public $table = "destinations";
+    public $table = "destinasions";
     public $primarykey = "id";
     public $guarded = ['id'];
 

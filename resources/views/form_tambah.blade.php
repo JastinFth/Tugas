@@ -6,6 +6,7 @@ Add Destination
 
 @section("content")
 
+<div class="container">
 <form action="{{url('form-tambah') }}" method="post">
     @csrf
     <div class="row mb-3">
@@ -51,5 +52,6 @@ Add Destination
     <a class="btn btn-danger" href="{{ url ('destinatio')}}">Cancel</a>
 
 </form>
+</div>
 
 @endsection
